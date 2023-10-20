@@ -14,6 +14,8 @@
     {
       devShells.${system}.default = pkgs.mkShell {
         packages = [
+          pkgs.httplz
+          pkgs.godot_4
           presenterm.packages.${system}.default
        	];
       };
